@@ -1,0 +1,7 @@
+ec\edu\ups\rest\ApplictaionPathActivator.class
+ec\edu\ups\rest\HolaMundoService.class
+ec\edu\ups\ejb\AbstractFacade.class
+ec\edu\ups\entity\Persona.class
+ec\edu\ups\rest\CORSFilter.class
+ec\edu\ups\ejb\PersonaFacade.class
+ec\edu\ups\rest\Jsf23Activator.class
