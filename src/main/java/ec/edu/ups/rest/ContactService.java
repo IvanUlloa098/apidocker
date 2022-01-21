@@ -111,6 +111,7 @@ public class ContactService {
         	persona = personaFacade.find(id);
         	persona.setNombre(nombre);
         	persona.setTelefono(telefono);
+        	personaFacade.edit(persona);
         	
 		    return Response.status(Response.Status.ACCEPTED).entity("Cliente asignado")
 		            .header("Access-Control-Allow-Origins", "*")
